@@ -37,3 +37,5 @@ function isEmpty(value) {
   } else if (typeof value === "boolean") return false;
   else return !value;
 }
+
+init();
