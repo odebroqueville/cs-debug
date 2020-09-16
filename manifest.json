@@ -1,0 +1,21 @@
+{
+	"manifest_version": 2,
+	"default_locale": "en",
+	"name": "CS Debugger",
+	"description": "Just a debugger for Context Search!",
+	"version": "1.0.0",
+	"author": "Olivier de Broqueville",
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "olivier.debroqueville",
+			"strict_min_version": "63.0"
+		}
+	},
+	"content_security_policy": "script-src 'self'; object-src 'self'; img-src *; ",
+
+	"background": {
+		"scripts": [ "/scripts/background.js" ]
+	},
+
+	"permissions": [ "*://*/*", "storage" ]
+}
