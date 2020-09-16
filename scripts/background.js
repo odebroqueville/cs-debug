@@ -14,7 +14,7 @@ function init() {
           resolve();
         } else {
           console.log(
-            "No content is stored in storage sync -> setting default message: Welcome back!",
+            "No content is stored in storage sync -> adding search engines to storage sync!",
           );
           browser.storage.sync
             .set({
