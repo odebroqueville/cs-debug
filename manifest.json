@@ -3,7 +3,7 @@
 	"default_locale": "en",
 	"name": "CS Debugger",
 	"description": "Just a debugger for Context Search!",
-	"version": "1.0.0",
+	"version": "2.0.0",
 	"author": "Olivier de Broqueville",
 	"browser_specific_settings": {
 		"gecko": {
