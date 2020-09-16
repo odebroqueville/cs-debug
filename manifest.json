@@ -17,5 +17,5 @@
 		"scripts": [ "/scripts/background.js" ]
 	},
 
-	"permissions": [ "*://*/*", "storage" ]
+	"permissions": [ "*://*/*", "storage", "tab" ]
 }
